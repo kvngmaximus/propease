@@ -29,7 +29,7 @@ const Perks = () => {
             </div>
 
             <div className="relative pt-10">
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full z-10">
+                <div className="hidden lg:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full z-10">
                     <AnimationContainer animation="scaleUp" delay={0.5}>
                         <Image
                             src="/images/grid-lines.svg"

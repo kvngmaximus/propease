@@ -14,6 +14,7 @@ const HomePage = () => {
             <section className="w-full">
                 <Hero />
             </section>
+
             <section className="w-full">
                 <Perks />
             </section>

@@ -25,7 +25,7 @@ const Features = () => {
                 </AnimationContainer>
             </div>
 
-            <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-6 px-1 md:px-0">
                 <div className="grid grid-cols-1 lg:grid-cols-[1fr_.65fr] gap-6">
                     <AnimationContainer animation="fadeRight" delay={0.5}>
                         <div className="relative rounded-3xl bg-[#191919] backdrop-blur-3xl overflow-hidden min-h-[400px]">

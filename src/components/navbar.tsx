@@ -173,6 +173,7 @@ const Navbar = () => {
                                     key={`link=${idx}`}
                                     animation="fadeRight"
                                     delay={0.1 * (idx + 1)}
+                                    className="w-full"
                                 >
                                     <Link
                                         href={navItem.link}
@@ -183,7 +184,7 @@ const Navbar = () => {
                                     </Link>
                                 </AnimationContainer>
                             ))}
-                            <AnimationContainer animation="fadeUp" delay={0.5}>
+                            <AnimationContainer animation="fadeUp" delay={0.5} className="w-full">
                                 {user ? (
                                     <Link href="/dashboard" className="w-full">
                                         <Button

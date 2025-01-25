@@ -55,7 +55,7 @@ const Hero = () => {
                             <p className="text-sm md:text-base text-muted-foreground">
                                 Trusted by Industry Leaders
                             </p>
-                            <div className="w-full relative max-w-[calc(100vw-1.9rem)] lg:max-w-lg">
+                            <div className="w-full relative max-w-[calc(100vw-2rem)] lg:max-w-lg">
                                 <Marquee className="[--duration:40s] select-none [--gap:2rem]">
                                     {[...Array(10)].map((_, index) => (
                                         <div key={index} className="flex items-center justify-center text-muted-foreground h-16">
@@ -63,8 +63,8 @@ const Hero = () => {
                                         </div>
                                     ))}
                                 </Marquee>
-                                <div className="pointer-events-none absolute inset-y-0 right-0 w-1/3 bg-gradient-to-l from-background z-40"></div>
-                                <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-background z-40"></div>
+                                <div className="pointer-events-none absolute inset-y-0 -right-1 w-1/3 bg-gradient-to-l from-[#101010] z-40"></div>
+                                <div className="pointer-events-none absolute inset-y-0 -left-1 w-1/3 bg-gradient-to-r from-[#101010] z-40"></div>
                             </div>
                         </div>
                     </AnimationContainer>

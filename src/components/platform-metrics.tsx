@@ -37,7 +37,7 @@ const PlatformMetrics = () => {
                     </AnimationContainer>
                 </div>
 
-                <div className="flex flex-col gap-6">
+                <div className="flex flex-col gap-6 px-1 md:px-0">
                     {METRICS.map((metric, index) => (
                         <AnimationContainer
                             key={index}

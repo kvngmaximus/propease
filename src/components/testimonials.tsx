@@ -31,8 +31,8 @@ const Testimonials = () => {
 
             <AnimationContainer animation="fadeUp" delay={0.5}>
                 <div className="relative">
-                    <div className="absolute left-0 top-0 w-20 h-full bg-gradient-to-r from-background to-transparent z-10" />
-                    <div className="absolute right-0 top-0 w-20 h-full bg-gradient-to-l from-background to-transparent z-10" />
+                    <div className="absolute -left-1 top-0 w-20 h-full bg-gradient-to-r from-[#101010] to-transparent z-10" />
+                    <div className="absolute -right-1 top-0 w-20 h-full bg-gradient-to-l from-[#101010] to-transparent z-10" />
 
                     <Marquee className="[--gap:1.5rem]" pauseOnHover>
                         {TESTIMONIALS.map((testimonial, index) => (
