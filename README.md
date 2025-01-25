@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# PropEase - Real Estate Management Platform
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🔥 Introduction
+
+PropEase is a modern real estate management landing page that showcases property listings, agent profiles, and real estate services with an elegant and responsive design.
+
+## 🔗 Live Preview
+
+Check out the live demo of caps.ai here: [Live Preview](https://propease-app.vercel.app/)
+
+## 🎥 Watch the Preview Video on YouTube
+
+Take a look at YouTube video by watching the demo: [Watch the Video](https://youtu.be/dfQ_WwWV6g8) 
+
+## 💻 Tech Stack
+
+- **Next.js 15** – React framework for production
+- **TailwindCSS** – Utility-first CSS framework
+- **Shadcn UI** – Reusable components
+- **Framer Motion** – Smooth animations
+- **React Hook Form** – Form validations
+- **Clerk** – Authentication
+- **TypeScript** – Type-safe code
+- **Number Flow** – Smooth number animations
+
+## 🛠️ Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/Shreyas-29/vetra.git
+    ```
+
+2. Install dependencies:
+    ```bash
+    pnpm install
+    # or
+    yarn install
+    ```
+
+3. Run the development server:
+    ```bash
+    pnpm run dev
+    # or
+    yarn dev
+    ```
+4. Environment Variables
+Rename `.env.example` to `.env`:
+
+```env
+    NEXT_PUBLIC_APP_NAME=PropEase
+
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/signin
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/signup
+    NEXT_PUBLIC_CLERK_SIGN_IN_FALLBACK_URL=/
+    NEXT_PUBLIC_CLERK_SIGN_UP_FALLBACK_URL=/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Deploy on Vercel
 
-## Learn More
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new) from the creators of Next.js.
 
-To learn more about Next.js, take a look at the following resources:
+Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 📜 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## ☕ Buy Me a Coffee
+
+If you enjoy using this project, consider supporting my work!  
+[Buy Me a Coffee ☕](https://buymeacoffee.com/shreyas29)
